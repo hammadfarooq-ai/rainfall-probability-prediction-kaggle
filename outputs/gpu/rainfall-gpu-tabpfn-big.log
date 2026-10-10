@@ -1,0 +1,18 @@
+[{"stream_name":"stdout","time":7.860164799,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stdout","time":7.860214412,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":7.860219256,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":7.860222186,"data":"transformers 5.16.1 requires huggingface-hub\u003c2.0,\u003e=1.5.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":7.860224888,"data":"\n"}
+,{"stream_name":"stdout","time":18.829658187,"data":"device cuda 2.11.0+cu128\n"}
+,{"stream_name":"stdout","time":18.890813523,"data":"(2190, 13) (730, 12) (365, 12)\n"}
+,{"stream_name":"stdout","time":191.587738168,"data":"tabpfn_raw_og_big RSKF 0.89359  LOYO 0.89553  173s\n"}
+,{"stream_name":"stdout","time":317.189161396,"data":"tabpfn_top_og  RSKF 0.89290  LOYO 0.89491  126s\n"}
+,{"stream_name":"stdout","time":480.846625689,"data":"tabpfn_rawx_og RSKF 0.89303  LOYO 0.89485  164s\n"}
+,{"stream_name":"stdout","time":480.846699271,"data":"done 461.93386578559875\n"}
+,{"stream_name":"stderr","time":486.606844689,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":486.606876194,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":486.881090504,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":486.881119028,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":487.70005684,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":488.735237503,"data":"[NbConvertApp] Writing 331890 bytes to __results__.html\n"}
+]

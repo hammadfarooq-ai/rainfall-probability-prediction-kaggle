@@ -1,0 +1,14 @@
+# competition data is not redistributed
+data/
+# files that contain training labels
+outputs/**/oof_predictions.csv
+outputs/ensemble/oof.csv
+# generated Kaggle kernel folders (embed the original dataset)
+kaggle_gpu/push_*/
+# local
+__pycache__/
+*.pyc
+catboost_info/
+.ipynb_checkpoints/
+.claude/
+output/

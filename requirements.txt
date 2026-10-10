@@ -1,0 +1,13 @@
+numpy
+pandas
+scipy
+scikit-learn==1.6.1
+lightgbm==4.6.0
+xgboost==3.1.1
+catboost==1.2.8
+optuna
+torch
+autogluon.tabular
+tabpfn==2.0.9
+matplotlib
+kaggle

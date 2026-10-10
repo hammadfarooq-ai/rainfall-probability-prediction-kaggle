@@ -1,0 +1,19 @@
+[{"stream_name":"stdout","time":6.241173714,"data":"\n"}
+,{"stream_name":"stdout","time":15.112680423,"data":"device cuda 2.11.0+cu128\n"}
+,{"stream_name":"stdout","time":15.16922573,"data":"(2190, 13) (730, 12) (365, 12)\n"}
+,{"stream_name":"stdout","time":17.599164689,"data":"INFO: You are downloading 'tabicl-classifier-v2-20260212.ckpt', the latest best-performing version, used in our TabICLv2 paper.\n"}
+,{"stream_name":"stdout","time":17.599216839,"data":"\n"}
+,{"stream_name":"stdout","time":17.59922482,"data":"Checkpoint 'tabicl-classifier-v2-20260212.ckpt' not cached.\n"}
+,{"stream_name":"stdout","time":17.599229013,"data":" Downloading from Hugging Face Hub (jingang/TabICL).\n"}
+,{"stream_name":"stdout","time":17.59923293,"data":"\n"}
+,{"stream_name":"stdout","time":74.872045869,"data":"tabicl_raw     RSKF 0.89177  LOYO 0.89375  60s\n"}
+,{"stream_name":"stdout","time":138.898832223,"data":"tabicl_raw_og  RSKF 0.89343  LOYO 0.89482  64s\n"}
+,{"stream_name":"stdout","time":216.329784767,"data":"tabicl_eng_og  RSKF 0.89327  LOYO 0.89470  77s\n"}
+,{"stream_name":"stdout","time":216.329825109,"data":"done 201.14012026786804\n"}
+,{"stream_name":"stderr","time":221.610714358,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":221.610740495,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":221.848398276,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":221.848429656,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":222.659429943,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":223.583951264,"data":"[NbConvertApp] Writing 331737 bytes to __results__.html\n"}
+]

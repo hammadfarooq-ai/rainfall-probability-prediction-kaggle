@@ -1,0 +1,22 @@
+﻿lr_raw     RSKF 0.89374  LOYO 0.89472  0s
+lr_eng     RSKF 0.89333  LOYO 0.89422  0s
+lr_eng_og  RSKF 0.89390  LOYO 0.89463  1s
+lr_spline  RSKF 0.88877  LOYO 0.89088  2s
+svm        RSKF 0.89020  LOYO 0.89134  3s
+mlp        RSKF 0.88394  LOYO 0.89092  80s
+lgb        RSKF 0.89183  LOYO 0.89275  6s
+lgb_og     RSKF 0.89378  LOYO 0.89489  7s
+xgb        RSKF 0.89093  LOYO 0.89260  20s
+cat        RSKF 0.88963  LOYO 0.89142  60s
+et         RSKF 0.89073  LOYO 0.89268  31s
+rf         RSKF 0.89000  LOYO 0.89016  45s
+
+mean_all    RSKF 0.89315  LOYO 0.89459
+hill_climb  RSKF 0.89502  LOYO 0.89585  -> ['lr_eng_og', 'lgb_og']
+  fold 0: hill 0.87927  mean_all 0.87712
+  fold 1: hill 0.90663  mean_all 0.90426
+  fold 2: hill 0.92144  mean_all 0.91929
+  fold 3: hill 0.89303  mean_all 0.89245
+  fold 4: hill 0.87054  mean_all 0.86896
+nested hill_climb 0.89418
+saved

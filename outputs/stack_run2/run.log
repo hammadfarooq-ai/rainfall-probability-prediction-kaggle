@@ -1,0 +1,183 @@
+	Warning: Exception caused NeuralNetFastAI to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Warning: Exception caused NeuralNetFastAI to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Warning: Exception caused NeuralNetFastAI to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Warning: Exception caused NeuralNetFastAI to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Warning: Exception caused NeuralNetFastAI to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Warning: Exception caused NeuralNetFastAI to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Warning: Exception caused NeuralNetFastAI to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Warning: Exception caused NeuralNetFastAI to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Warning: Exception caused NeuralNetFastAI to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Warning: Exception caused NeuralNetFastAI to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Warning: Exception caused NeuralNetFastAI to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Warning: Exception caused NeuralNetFastAI to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Warning: Exception caused NeuralNetFastAI to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Warning: Exception caused NeuralNetFastAI to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Warning: Exception caused NeuralNetFastAI to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Warning: Exception caused NeuralNetFastAI to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Warning: Exception caused NeuralNetFastAI to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Warning: Exception caused NeuralNetFastAI to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Warning: Exception caused NeuralNetFastAI to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Warning: Exception caused NeuralNetFastAI to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Warning: Exception caused NeuralNetFastAI to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Warning: Exception caused NeuralNetFastAI to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Warning: Exception caused NeuralNetFastAI to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Warning: Exception caused NeuralNetFastAI to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Warning: Exception caused NeuralNetFastAI to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Warning: Exception caused NeuralNetFastAI to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Warning: Exception caused NeuralNetFastAI to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+{'pandas': '2.3.0', 'numpy': '2.2.6', 'lightgbm': '4.6.0', 'xgboost': '3.1.1', 'catboost': '1.2.8'} | torch: True
+profile=standard | repeats=6 | optuna=True (60 trials x 110s)
+train: data2\train.csv 
+test : data2\test.csv 
+sample: data2\sample_submission.csv 
+orig : data2\Rainfall.csv
+train (2190, 13) | test (730, 12) | rain rate: 0.7534
+original (366, 12) | rain rate: 0.6803
+   id  day  pressure  maxtemp  ...  windspeed  rainfall  doy  year_idx
+0   0    1    1017.4     21.2  ...       17.2       1.0    1         0
+1   1    2    1019.5     16.2  ...       21.9       1.0    2         0
+2   2    3    1024.1     19.4  ...       18.1       1.0    3         0
+3   3    4    1013.4     18.1  ...       35.6       1.0    4         0
+
+[4 rows x 15 columns]
+train vs original adversarial AUC = 0.724  -> datasets differ somewhat: a pretrain->fine-tune split is worth testing
+{'A base': 11, 'B +static': 25, 'C +anomaly': 31, 'D +sequence': 95, 'E +pairs (all)': 115}
+feature set for linear/kernel/NN models  : A base (11)
+feature set for tree models              : A base (11)
+feature set for spline/linear-leaf models: B +static (25)
+orig_rep (plain-training weight) = 1
+parallel permutation importance unavailable -> falling back to single-threaded: ModuleNotFoundError("No module named '_posixsubprocess'")
+tree feature set: 11 columns (full, unpruned)
+LGBMFineTune / XGBFineTune / CatFineTune defined (each with early-stopped, warm-started fine-tuning)
+TorchMLP / TorchMLPFineTune defined
+12 candidate model families: ['LogReg', 'LogReg-Spline', 'SVM-RBF', 'kNN', 'QDA', 'LightGBM-Lin', 'ExtraTrees', 'RandForest', 'LightGBM', 'XGBoost', 'CatBoost', 'TorchMLP']
+TabPFN: off (needs GPU + Internet or an attached model; see notes) | candidates: 12
+AutoGluon: ON | candidates: 13
+mode comparison done in 335s
+mode           finetune    plain
+model                           
+AutoGluon           NaN  0.88977
+CatBoost        0.88403  0.89289
+ExtraTrees          NaN  0.89245
+LightGBM        0.88387  0.89435
+LightGBM-Lin        NaN  0.89087
+LogReg              NaN  0.89355
+LogReg-Spline       NaN  0.88881
+QDA                 NaN  0.88662
+RandForest          NaN  0.89330
+SVM-RBF             NaN  0.89241
+TorchMLP        0.88653  0.89057
+XGBoost         0.88686  0.89475
+kNN                 NaN  0.87909
+chosen mode per model: {'LogReg': 'plain', 'LogReg-Spline': 'plain', 'SVM-RBF': 'plain', 'kNN': 'plain', 'QDA': 'plain', 'LightGBM-Lin': 'plain', 'ExtraTrees': 'plain', 'RandForest': 'plain', 'LightGBM': 'plain', 'XGBoost': 'plain', 'CatBoost': 'plain', 'TorchMLP': 'plain', 'AutoGluon': 'plain'}
+LogReg       (plain   ) trials= 60  best=0.8946  (5s)
+LogReg-Spline (plain   ) trials= 60  best=0.8948  (17s)
+SVM-RBF      (plain   ) trials= 23  best=0.8949  (122s)
+kNN          (plain   ) trials= 60  best=0.8873  (54s)
+QDA          (plain   ) trials= 60  best=0.8874  (4s)
+LightGBM-Lin (plain   ) trials= 60  best=0.8935  (38s)
+ExtraTrees   (plain   ) trials= 18  best=0.8928  (113s)
+RandForest   (plain   ) trials= 14  best=0.8931  (118s)
+LightGBM     (plain   ) trials= 60  best=0.8954  (108s)
+XGBoost      (plain   ) trials= 60  best=0.8955  (84s)
+CatBoost     (plain   ) trials= 17  best=0.8932  (116s)
+TorchMLP     (plain   ) trials=  7  best=0.8918  (118s)
+total tuning time 897s
+            model   mode  trials    best  secs
+0          LogReg  plain      60  0.8946     5
+1   LogReg-Spline  plain      60  0.8948    17
+2         SVM-RBF  plain      23  0.8949   122
+3             kNN  plain      60  0.8873    54
+4             QDA  plain      60  0.8874     4
+5    LightGBM-Lin  plain      60  0.8935    38
+6      ExtraTrees  plain      18  0.8928   113
+7      RandForest  plain      14  0.8931   118
+8        LightGBM  plain      60  0.8954   108
+9         XGBoost  plain      60  0.8955    84
+10       CatBoost  plain      17  0.8932   116
+11       TorchMLP  plain       7  0.8918   118
+LogReg       (plain   ) AUC=0.89344 ± 0.00059   (avg-OOF 0.89365)       0s
+LogReg-Spline (plain   ) AUC=0.89413 ± 0.00046   (avg-OOF 0.89433)       1s
+SVM-RBF      (plain   ) AUC=0.89328 ± 0.00035   (avg-OOF 0.89343)      27s
+kNN          (plain   ) AUC=0.88607 ± 0.00082   (avg-OOF 0.88661)       4s
+QDA          (plain   ) AUC=0.88644 ± 0.00040   (avg-OOF 0.88663)       0s
+LightGBM-Lin (plain   ) AUC=0.89255 ± 0.00088   (avg-OOF 0.89349)       3s
+ExtraTrees   (plain   ) AUC=0.89280 ± 0.00131   (avg-OOF 0.89316)      45s
+RandForest   (plain   ) AUC=0.89408 ± 0.00148   (avg-OOF 0.89488)      84s
+LightGBM     (plain   ) AUC=0.89422 ± 0.00087   (avg-OOF 0.89515)      18s
+XGBoost      (plain   ) AUC=0.89351 ± 0.00100   (avg-OOF 0.89423)      10s
+CatBoost     (plain   ) AUC=0.89223 ± 0.00061   (avg-OOF 0.89285)      39s
+TorchMLP     (plain   ) AUC=0.89155 ± 0.00045   (avg-OOF 0.89210)     173s
+AutoGluon    (plain   ) AUC=0.88140 ± 0.00972   (avg-OOF 0.88427)     197s
+total 602s | 13 models in the ensemble
+                    auc       std   mode
+LightGBM       0.894221  0.000868  plain
+LogReg-Spline  0.894128  0.000465  plain
+RandForest     0.894085  0.001485  plain
+XGBoost        0.893509  0.001002  plain
+LogReg         0.893438  0.000590  plain
+SVM-RBF        0.893281  0.000347  plain
+ExtraTrees     0.892804  0.001305  plain
+LightGBM-Lin   0.892548  0.000883  plain
+CatBoost       0.892234  0.000609  plain
+TorchMLP       0.891552  0.000448  plain
+QDA            0.886439  0.000402  plain
+kNN            0.886066  0.000822  plain
+AutoGluon      0.881396  0.009721  plain
+generic blenders evaluated (nested CV, nothing fit on its own test rows)
+                  auc      std
+method                        
+best_single   0.89248  0.00147
+mean_all      0.89493  0.00047
+stack_feat    0.89499  0.00104
+hill_climb    0.89534  0.00092
+hill_bag      0.89541  0.00077
+stack_LR      0.89543  0.00070
+mean_pruned   0.89552  0.00068
+blend_optuna  0.89554  0.00063
+selected blender: blend_optuna | alternative for 2nd submission: mean_pruned
+OOF AUC  main blend (blend_optuna): 0.89625 | alt (mean_pruned): 0.89594 | best single: 0.89422
+Brier 0.1023  logloss 0.3406  (base-rate Brier 0.1858)
+mean gap  random-CV minus LOYO: -0.0014
+saved -> output2
+     id  rainfall
+0  2190  0.995729
+1  2191  0.996589
+2  2192  0.941164
+3  2193  0.212706
+4  2194  0.164791
+                                          score
+best single model CV (LightGBM, plain)  0.89422
+blend nested-CV (blend_optuna)          0.89554
+blend OOF AUC (in-sample weights)       0.89625
+leave-one-year-out (mean-rank blend)    0.89584
+
+fine-tuning did not beat plain training for any model this run -> every model used plain training (still a valid, CV-checked outcome).
+no usable external submission found -> skipped (normal unless you attached a notebook's output via Add Input)

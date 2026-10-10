@@ -1,0 +1,37 @@
+ref,fileName,date,description,status,publicScore,privateScore
+57032610,sub_x_icl_m_old_strong.csv,2026-10-10 05:47:48.197000,Rank blend 2*TabICL - 1*old stack,SubmissionStatus.COMPLETE,0.869401984,0.901631508
+57032592,sub_x_icl_m_lr.csv,2026-10-10 05:46:58.497000,Rank blend 1.5*TabICL - 0.5*logistic regression,SubmissionStatus.COMPLETE,0.870206489,0.904754317
+57032571,sub_x_icl_m_old.csv,2026-10-10 05:46:11.357000,Rank blend 1.5*TabICL - 0.5*old stack,SubmissionStatus.COMPLETE,0.871547331,0.903264610
+57032536,sub_tabicl_lr.csv,2026-10-10 05:44:56.310000,"TabICL v2 + logistic regression (orig data) rank blend, OOF 0.8950",SubmissionStatus.COMPLETE,0.864843121,0.899496526
+57032535,sub_tabicl_old.csv,2026-10-10 05:44:49.550000,"TabICL v2 + output3 stack rank blend, OOF 0.8960",SubmissionStatus.COMPLETE,0.867256637,0.902244917
+57014867,sub_fm2.csv,2026-10-09 16:26:29.463000,"Rank blend TabPFN v2 + TabICL v2 (GPU), OOF 0.8941",SubmissionStatus.COMPLETE,0.870340573,0.903216812
+57014864,sub_tabicl.csv,2026-10-09 16:26:22.743000,"TabICL v2 GPU (32 est x 3 seeds) + original data, RSKF 0.8934 LOYO 0.8948",SubmissionStatus.COMPLETE,0.871010994,0.903224778
+57014348,sub_blend_gpu.csv,2026-10-09 16:04:43.253000,"TabPFN v2 GPU (16 est x 3 seeds) + original data, RSKF 0.8938 LOYO 0.8956",SubmissionStatus.COMPLETE,0.868597479,0.901631508
+57014076,submission_final_blend.csv,2026-10-09 15:53:01.813000,50/50 rank blend: output3 stack_LR + output4 LR/LGBM-orig,SubmissionStatus.COMPLETE,0.856127648,0.899592122
+57014072,submission_hill.csv,2026-10-09 15:52:55.353000,"LR+LGBM with original data, seed-avg rank blend (RSKF 0.8950, LOYO 0.8958)",SubmissionStatus.COMPLETE,0.851836953,0.898779555
+56801796,submission_final_blend.csv,2026-10-03 16:01:06.343000,,SubmissionStatus.COMPLETE,0.857066237,0.898699891
+56801501,submission_advanced_blend.csv,2026-10-03 15:46:00.950000,,SubmissionStatus.COMPLETE,0.825422365,0.891992224
+56801448,submission_lgb.csv,2026-10-03 15:43:19.053000,,SubmissionStatus.COMPLETE,0.841244301,0.889570454
+56800510,submission_rankblend.csv,2026-10-03 14:50:44.093000,rank blend of output/output2/output3,SubmissionStatus.COMPLETE,0.861356932,0.901217258
+56800445,submission.csv,2026-10-03 14:47:36.470000,output3 stack_LR blend (CV AUC 0.8973),SubmissionStatus.COMPLETE,0.862429605,0.900277228
+56746024,submission.csv,2026-10-01 07:15:54.117000,max orig-data submission,SubmissionStatus.COMPLETE,0.862429605,0.900277228
+56744612,submission_avg.csv,2026-10-01 05:46:30.407000,orig-data ensemble submission_avg,SubmissionStatus.COMPLETE,0.859747921,0.901392518
+56744607,submission_alt.csv,2026-10-01 05:46:24.003000,orig-data ensemble submission_alt,SubmissionStatus.COMPLETE,0.860686511,0.901695239
+56744603,submission.csv,2026-10-01 05:46:17.543000,orig-data ensemble submission,SubmissionStatus.COMPLETE,0.858407079,0.900611815
+56744000,submission.csv,2026-10-01 05:04:40.513000,,SubmissionStatus.COMPLETE,0.856798069,0.899568223
+56712377,submission.csv,2026-09-30 15:56:06.523000,,SubmissionStatus.COMPLETE,0.864038616,0.900850806
+56712364,oof_predictions.csv,2026-09-30 15:55:38.320000,,SubmissionStatus.ERROR,,
+56518581,submission.csv,2026-09-24 10:08:41.463000,,SubmissionStatus.COMPLETE,0.864306784,0.900898604
+56479075,submission.csv,2026-09-23 01:44:51.237000,,SubmissionStatus.COMPLETE,0.861625100,0.901400484
+56462554,submission.csv,2026-09-22 11:04:53.357000,,SubmissionStatus.COMPLETE,0.861625100,0.901408450
+56461397,submission.csv,2026-09-22 10:12:01.707000,,SubmissionStatus.COMPLETE,0.861625100,0.901400484
+56454464,submission (1).csv,2026-09-22 05:38:39.260000,,SubmissionStatus.COMPLETE,0.856798069,0.901121662
+56453141,submission.csv,2026-09-22 04:37:36.743000,,SubmissionStatus.COMPLETE,0.864038616,0.900595882
+56452115,submission.csv,2026-09-22 03:50:03.067000,,SubmissionStatus.COMPLETE,0.860552426,0.901583710
+56402171,submission.csv,2026-09-20 17:14:27.170000,Notebook Rain Ensemble Pro | Version 2,SubmissionStatus.COMPLETE,0.858138911,0.900054171
+56401011,submission.csv,2026-09-20 16:21:14.107000,Notebook 🌧️ Rainfall Probability | Version 1,SubmissionStatus.COMPLETE,0.858004827,0.895162832
+56400855,submission.csv,2026-09-20 16:14:24.593000,,SubmissionStatus.COMPLETE,0.858004827,0.895162832
+56379473,submission.csv,2026-09-20 03:58:36.447000,"Notebook 🌧️ Rain Predictor v2 | More Features, More Models | Version 1",SubmissionStatus.COMPLETE,0.858138911,0.900054171
+56367002,submission.csv,2026-09-19 17:24:01.817000,Notebook Rainfall Probability | Robust CV | Version 1,SubmissionStatus.COMPLETE,0.858943416,0.897998852
+56366482,submission.csv,2026-09-19 17:05:28.230000,,SubmissionStatus.COMPLETE,0.858943416,0.897998852
+56366376,submission.csv,2026-09-19 17:01:22.020000,,SubmissionStatus.COMPLETE,0.423437919,0.540548722
